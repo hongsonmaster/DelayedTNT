@@ -152,7 +152,7 @@ public final class DelayedTNT extends JavaPlugin implements Listener {
     }
 
     private Location getCenterLocation(Location location) {
-        return location.add(0.5, 1, 0.5);
+        return location.add(1, 1, 1);
     }
 
     private List<FireworkEffect> getFireworkEffects(){
